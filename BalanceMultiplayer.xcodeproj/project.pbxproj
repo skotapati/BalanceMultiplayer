@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F05EA321D44DB4800B56B32 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F05EA311D44DB4800B56B32 /* Background.png */; };
+		1F05EA331D44DB4800B56B32 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F05EA311D44DB4800B56B32 /* Background.png */; };
 		1F4966AF1D44312200E21057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4966AE1D44312200E21057 /* AppDelegate.swift */; };
 		1F4966B11D44312200E21057 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B01D44312200E21057 /* GameScene.sks */; };
 		1F4966B31D44312200E21057 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B21D44312200E21057 /* Actions.sks */; };
@@ -15,28 +17,69 @@
 		1F4966BA1D44312200E21057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B81D44312200E21057 /* Main.storyboard */; };
 		1F4966BC1D44312200E21057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966BB1D44312200E21057 /* Assets.xcassets */; };
 		1F4966BF1D44312200E21057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966BD1D44312200E21057 /* LaunchScreen.storyboard */; };
-		1F4966CA1D44312200E21057 /* BalanceMultiplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4966C91D44312200E21057 /* BalanceMultiplayerTests.swift */; };
-		1F4966D51D44312300E21057 /* BalanceMultiplayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4966D41D44312300E21057 /* BalanceMultiplayerUITests.swift */; };
+		A25946231D4485C900491734 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25946221D4485C900491734 /* Messages.framework */; };
+		A25946261D4485C900491734 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25946251D4485C900491734 /* MessagesViewController.swift */; };
+		A25946291D4485C900491734 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25946271D4485C900491734 /* MainInterface.storyboard */; };
+		A259462B1D4485CA00491734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A259462A1D4485CA00491734 /* Assets.xcassets */; };
+		A259462F1D4485CA00491734 /* TerribleTower.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A25946201D4485C900491734 /* TerribleTower.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A25946341D4485F100491734 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B01D44312200E21057 /* GameScene.sks */; };
+		A25946351D4485F400491734 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B21D44312200E21057 /* Actions.sks */; };
+		A25946361D44860400491734 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4966B41D44312200E21057 /* GameScene.swift */; };
+		A25946371D44860700491734 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4966B61D44312200E21057 /* GameViewController.swift */; };
+		A25946381D44860F00491734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966B81D44312200E21057 /* Main.storyboard */; };
+		A25946391D44861300491734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4966BD1D44312200E21057 /* LaunchScreen.storyboard */; };
+		A259463B1D4486CC00491734 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A259463A1D4486CC00491734 /* SceneKit.framework */; };
+		A259463C1D4486D200491734 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A259463A1D4486CC00491734 /* SceneKit.framework */; };
+		A25946401D44A27000491734 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A259463E1D44A27000491734 /* 4.jpg */; };
+		A259464C1D44A27500491734 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946411D44A27500491734 /* ball.png */; };
+		A259464D1D44A27500491734 /* bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A25946421D44A27500491734 /* bg@2x.jpg */; };
+		A259464E1D44A27500491734 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946431D44A27500491734 /* bird.png */; };
+		A259464F1D44A27500491734 /* broom.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946441D44A27500491734 /* broom.png */; };
+		A25946501D44A27500491734 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946451D44A27500491734 /* chair.png */; };
+		A25946511D44A27500491734 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946461D44A27500491734 /* fish.png */; };
+		A25946521D44A27500491734 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946471D44A27500491734 /* icon.png */; };
+		A25946531D44A27500491734 /* invite.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946481D44A27500491734 /* invite.png */; };
+		A25946541D44A27500491734 /* signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946491D44A27500491734 /* signup@2x.png */; };
+		A25946551D44A27500491734 /* ui_btn_cam.png in Resources */ = {isa = PBXBuildFile; fileRef = A259464A1D44A27500491734 /* ui_btn_cam.png */; };
+		A25946561D44A27500491734 /* ui_btn_save.png in Resources */ = {isa = PBXBuildFile; fileRef = A259464B1D44A27500491734 /* ui_btn_save.png */; };
+		A25946571D44A54B00491734 /* signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946491D44A27500491734 /* signup@2x.png */; };
+		A25946581D44A55900491734 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946411D44A27500491734 /* ball.png */; };
+		A25946591D44A55900491734 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946431D44A27500491734 /* bird.png */; };
+		A259465A1D44A55900491734 /* broom.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946441D44A27500491734 /* broom.png */; };
+		A259465B1D44A55900491734 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946451D44A27500491734 /* chair.png */; };
+		A259465C1D44A55900491734 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946461D44A27500491734 /* fish.png */; };
+		A259465D1D44A55900491734 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946471D44A27500491734 /* icon.png */; };
+		A259465E1D44A55900491734 /* invite.png in Resources */ = {isa = PBXBuildFile; fileRef = A25946481D44A27500491734 /* invite.png */; };
+		A259465F1D44A55900491734 /* ui_btn_cam.png in Resources */ = {isa = PBXBuildFile; fileRef = A259464A1D44A27500491734 /* ui_btn_cam.png */; };
+		A25946601D44A55900491734 /* ui_btn_save.png in Resources */ = {isa = PBXBuildFile; fileRef = A259464B1D44A27500491734 /* ui_btn_save.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F4966C61D44312200E21057 /* PBXContainerItemProxy */ = {
+		A259462D1D4485CA00491734 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F4966A31D44312200E21057 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F4966AA1D44312200E21057;
-			remoteInfo = BalanceMultiplayer;
-		};
-		1F4966D11D44312300E21057 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F4966A31D44312200E21057 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F4966AA1D44312200E21057;
-			remoteInfo = BalanceMultiplayer;
+			remoteGlobalIDString = A259461F1D4485C900491734;
+			remoteInfo = TerribleTower;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A25946331D4485CA00491734 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A259462F1D4485CA00491734 /* TerribleTower.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1F05EA311D44DB4800B56B32 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = ../../../Documents/Background.png; sourceTree = "<group>"; };
 		1F4966AB1D44312200E21057 /* BalanceMultiplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalanceMultiplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4966AE1D44312200E21057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4966B01D44312200E21057 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -47,12 +90,29 @@
 		1F4966BB1D44312200E21057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4966BE1D44312200E21057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4966C01D44312200E21057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F4966C51D44312200E21057 /* BalanceMultiplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalanceMultiplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4966C91D44312200E21057 /* BalanceMultiplayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceMultiplayerTests.swift; sourceTree = "<group>"; };
 		1F4966CB1D44312200E21057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F4966D01D44312300E21057 /* BalanceMultiplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalanceMultiplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4966D41D44312300E21057 /* BalanceMultiplayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceMultiplayerUITests.swift; sourceTree = "<group>"; };
 		1F4966D61D44312300E21057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25946201D4485C900491734 /* TerribleTower.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TerribleTower.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25946221D4485C900491734 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		A25946251D4485C900491734 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		A25946281D4485C900491734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A259462A1D4485CA00491734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A259462C1D4485CA00491734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A259463A1D4486CC00491734 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		A259463E1D44A27000491734 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		A25946411D44A27500491734 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		A25946421D44A27500491734 /* bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg@2x.jpg"; sourceTree = "<group>"; };
+		A25946431D44A27500491734 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		A25946441D44A27500491734 /* broom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broom.png; sourceTree = "<group>"; };
+		A25946451D44A27500491734 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair.png; sourceTree = "<group>"; };
+		A25946461D44A27500491734 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		A25946471D44A27500491734 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A25946481D44A27500491734 /* invite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invite.png; sourceTree = "<group>"; };
+		A25946491D44A27500491734 /* signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signup@2x.png"; sourceTree = "<group>"; };
+		A259464A1D44A27500491734 /* ui_btn_cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui_btn_cam.png; sourceTree = "<group>"; };
+		A259464B1D44A27500491734 /* ui_btn_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui_btn_save.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,20 +120,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A259463C1D4486D200491734 /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F4966C21D44312200E21057 /* Frameworks */ = {
+		A259461D1D4485C900491734 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F4966CD1D44312300E21057 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A259463B1D4486CC00491734 /* SceneKit.framework in Frameworks */,
+				A25946231D4485C900491734 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +142,8 @@
 				1F4966AD1D44312200E21057 /* BalanceMultiplayer */,
 				1F4966C81D44312200E21057 /* BalanceMultiplayerTests */,
 				1F4966D31D44312300E21057 /* BalanceMultiplayerUITests */,
+				A25946241D4485C900491734 /* TerribleTower */,
+				A25946211D4485C900491734 /* Frameworks */,
 				1F4966AC1D44312200E21057 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				1F4966AB1D44312200E21057 /* BalanceMultiplayer.app */,
-				1F4966C51D44312200E21057 /* BalanceMultiplayerTests.xctest */,
-				1F4966D01D44312300E21057 /* BalanceMultiplayerUITests.xctest */,
+				A25946201D4485C900491734 /* TerribleTower.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +160,7 @@
 		1F4966AD1D44312200E21057 /* BalanceMultiplayer */ = {
 			isa = PBXGroup;
 			children = (
+				1F690A861D447B170031D573 /* Images */,
 				1F4966AE1D44312200E21057 /* AppDelegate.swift */,
 				1F4966B01D44312200E21057 /* GameScene.sks */,
 				1F4966B21D44312200E21057 /* Actions.sks */,
@@ -134,6 +192,46 @@
 			path = BalanceMultiplayerUITests;
 			sourceTree = "<group>";
 		};
+		1F690A861D447B170031D573 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F05EA311D44DB4800B56B32 /* Background.png */,
+				A25946411D44A27500491734 /* ball.png */,
+				A25946421D44A27500491734 /* bg@2x.jpg */,
+				A25946441D44A27500491734 /* broom.png */,
+				A25946431D44A27500491734 /* bird.png */,
+				A25946451D44A27500491734 /* chair.png */,
+				A25946461D44A27500491734 /* fish.png */,
+				A25946471D44A27500491734 /* icon.png */,
+				A25946481D44A27500491734 /* invite.png */,
+				A25946491D44A27500491734 /* signup@2x.png */,
+				A259464A1D44A27500491734 /* ui_btn_cam.png */,
+				A259464B1D44A27500491734 /* ui_btn_save.png */,
+				A259463E1D44A27000491734 /* 4.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A25946211D4485C900491734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A259463A1D4486CC00491734 /* SceneKit.framework */,
+				A25946221D4485C900491734 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A25946241D4485C900491734 /* TerribleTower */ = {
+			isa = PBXGroup;
+			children = (
+				A25946251D4485C900491734 /* MessagesViewController.swift */,
+				A25946271D4485C900491734 /* MainInterface.storyboard */,
+				A259462A1D4485CA00491734 /* Assets.xcassets */,
+				A259462C1D4485CA00491734 /* Info.plist */,
+			);
+			path = TerribleTower;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,51 +242,34 @@
 				1F4966A71D44312200E21057 /* Sources */,
 				1F4966A81D44312200E21057 /* Frameworks */,
 				1F4966A91D44312200E21057 /* Resources */,
+				A25946331D4485CA00491734 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A259462E1D4485CA00491734 /* PBXTargetDependency */,
 			);
 			name = BalanceMultiplayer;
 			productName = BalanceMultiplayer;
 			productReference = 1F4966AB1D44312200E21057 /* BalanceMultiplayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F4966C41D44312200E21057 /* BalanceMultiplayerTests */ = {
+		A259461F1D4485C900491734 /* TerribleTower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F4966DC1D44312300E21057 /* Build configuration list for PBXNativeTarget "BalanceMultiplayerTests" */;
+			buildConfigurationList = A25946301D4485CA00491734 /* Build configuration list for PBXNativeTarget "TerribleTower" */;
 			buildPhases = (
-				1F4966C11D44312200E21057 /* Sources */,
-				1F4966C21D44312200E21057 /* Frameworks */,
-				1F4966C31D44312200E21057 /* Resources */,
+				A259461C1D4485C900491734 /* Sources */,
+				A259461D1D4485C900491734 /* Frameworks */,
+				A259461E1D4485C900491734 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F4966C71D44312200E21057 /* PBXTargetDependency */,
 			);
-			name = BalanceMultiplayerTests;
-			productName = BalanceMultiplayerTests;
-			productReference = 1F4966C51D44312200E21057 /* BalanceMultiplayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1F4966CF1D44312300E21057 /* BalanceMultiplayerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F4966DF1D44312300E21057 /* Build configuration list for PBXNativeTarget "BalanceMultiplayerUITests" */;
-			buildPhases = (
-				1F4966CC1D44312300E21057 /* Sources */,
-				1F4966CD1D44312300E21057 /* Frameworks */,
-				1F4966CE1D44312300E21057 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F4966D21D44312300E21057 /* PBXTargetDependency */,
-			);
-			name = BalanceMultiplayerUITests;
-			productName = BalanceMultiplayerUITests;
-			productReference = 1F4966D01D44312300E21057 /* BalanceMultiplayerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = TerribleTower;
+			productName = TerribleTower;
+			productReference = A25946201D4485C900491734 /* TerribleTower.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,21 +285,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3YEY85DN6M;
 						DevelopmentTeamName = "Sunita Kotapati";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
-					1F4966C41D44312200E21057 = {
+					A259461F1D4485C900491734 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3YEY85DN6M;
-						DevelopmentTeamName = "Sunita Kotapati";
+						DevelopmentTeam = 399TA5Z29Z;
+						DevelopmentTeamName = "Brad Smith";
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1F4966AA1D44312200E21057;
-					};
-					1F4966CF1D44312300E21057 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3YEY85DN6M;
-						DevelopmentTeamName = "Sunita Kotapati";
-						ProvisioningStyle = Automatic;
-						TestTargetID = 1F4966AA1D44312200E21057;
 					};
 				};
 			};
@@ -236,8 +310,7 @@
 			projectRoot = "";
 			targets = (
 				1F4966AA1D44312200E21057 /* BalanceMultiplayer */,
-				1F4966C41D44312200E21057 /* BalanceMultiplayerTests */,
-				1F4966CF1D44312300E21057 /* BalanceMultiplayerUITests */,
+				A259461F1D4485C900491734 /* TerribleTower */,
 			);
 		};
 /* End PBXProject section */
@@ -247,25 +320,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25946511D44A27500491734 /* fish.png in Resources */,
+				A259464D1D44A27500491734 /* bg@2x.jpg in Resources */,
+				A259464F1D44A27500491734 /* broom.png in Resources */,
+				A25946561D44A27500491734 /* ui_btn_save.png in Resources */,
+				A25946541D44A27500491734 /* signup@2x.png in Resources */,
+				A25946501D44A27500491734 /* chair.png in Resources */,
+				A25946401D44A27000491734 /* 4.jpg in Resources */,
 				1F4966BA1D44312200E21057 /* Main.storyboard in Resources */,
 				1F4966B11D44312200E21057 /* GameScene.sks in Resources */,
+				A25946521D44A27500491734 /* icon.png in Resources */,
+				A25946531D44A27500491734 /* invite.png in Resources */,
 				1F4966BC1D44312200E21057 /* Assets.xcassets in Resources */,
+				A259464E1D44A27500491734 /* bird.png in Resources */,
 				1F4966BF1D44312200E21057 /* LaunchScreen.storyboard in Resources */,
+				A259464C1D44A27500491734 /* ball.png in Resources */,
+				1F05EA321D44DB4800B56B32 /* Background.png in Resources */,
+				A25946551D44A27500491734 /* ui_btn_cam.png in Resources */,
 				1F4966B31D44312200E21057 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F4966C31D44312200E21057 /* Resources */ = {
+		A259461E1D4485C900491734 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F4966CE1D44312300E21057 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A259465D1D44A55900491734 /* icon.png in Resources */,
+				A25946601D44A55900491734 /* ui_btn_save.png in Resources */,
+				A259462B1D4485CA00491734 /* Assets.xcassets in Resources */,
+				A25946381D44860F00491734 /* Main.storyboard in Resources */,
+				A259465B1D44A55900491734 /* chair.png in Resources */,
+				A25946591D44A55900491734 /* bird.png in Resources */,
+				A25946341D4485F100491734 /* GameScene.sks in Resources */,
+				A259465C1D44A55900491734 /* fish.png in Resources */,
+				A25946571D44A54B00491734 /* signup@2x.png in Resources */,
+				1F05EA331D44DB4800B56B32 /* Background.png in Resources */,
+				A259465A1D44A55900491734 /* broom.png in Resources */,
+				A25946391D44861300491734 /* LaunchScreen.storyboard in Resources */,
+				A259465F1D44A55900491734 /* ui_btn_cam.png in Resources */,
+				A259465E1D44A55900491734 /* invite.png in Resources */,
+				A25946291D4485C900491734 /* MainInterface.storyboard in Resources */,
+				A25946581D44A55900491734 /* ball.png in Resources */,
+				A25946351D4485F400491734 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,34 +378,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F4966C11D44312200E21057 /* Sources */ = {
+		A259461C1D4485C900491734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4966CA1D44312200E21057 /* BalanceMultiplayerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F4966CC1D44312300E21057 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F4966D51D44312300E21057 /* BalanceMultiplayerUITests.swift in Sources */,
+				A25946361D44860400491734 /* GameScene.swift in Sources */,
+				A25946371D44860700491734 /* GameViewController.swift in Sources */,
+				A25946261D4485C900491734 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F4966C71D44312200E21057 /* PBXTargetDependency */ = {
+		A259462E1D4485CA00491734 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F4966AA1D44312200E21057 /* BalanceMultiplayer */;
-			targetProxy = 1F4966C61D44312200E21057 /* PBXContainerItemProxy */;
-		};
-		1F4966D21D44312300E21057 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F4966AA1D44312200E21057 /* BalanceMultiplayer */;
-			targetProxy = 1F4966D11D44312300E21057 /* PBXContainerItemProxy */;
+			target = A259461F1D4485C900491734 /* TerribleTower */;
+			targetProxy = A259462D1D4485CA00491734 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,6 +413,14 @@
 				1F4966BE1D44312200E21057 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A25946271D4485C900491734 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25946281D4485C900491734 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,6 +518,7 @@
 		1F4966DA1D44312300E21057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BalanceMultiplayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +531,7 @@
 		1F4966DB1D44312300E21057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BalanceMultiplayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,53 +541,29 @@
 			};
 			name = Release;
 		};
-		1F4966DD1D44312300E21057 /* Debug */ = {
+		A25946311D4485CA00491734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BalanceMultiplayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayerTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = TerribleTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayer.TerribleTower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BalanceMultiplayer.app/BalanceMultiplayer";
 			};
 			name = Debug;
 		};
-		1F4966DE1D44312300E21057 /* Release */ = {
+		A25946321D4485CA00491734 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BalanceMultiplayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayerTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = TerribleTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayer.TerribleTower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BalanceMultiplayer.app/BalanceMultiplayer";
-			};
-			name = Release;
-		};
-		1F4966E01D44312300E21057 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BalanceMultiplayerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = BalanceMultiplayer;
-			};
-			name = Debug;
-		};
-		1F4966E11D44312300E21057 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BalanceMultiplayerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UnfortunatelySome.BalanceMultiplayerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = BalanceMultiplayer;
 			};
 			name = Release;
 		};
@@ -515,22 +586,16 @@
 				1F4966DB1D44312300E21057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1F4966DC1D44312300E21057 /* Build configuration list for PBXNativeTarget "BalanceMultiplayerTests" */ = {
+		A25946301D4485CA00491734 /* Build configuration list for PBXNativeTarget "TerribleTower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F4966DD1D44312300E21057 /* Debug */,
-				1F4966DE1D44312300E21057 /* Release */,
+				A25946311D4485CA00491734 /* Debug */,
+				A25946321D4485CA00491734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		1F4966DF1D44312300E21057 /* Build configuration list for PBXNativeTarget "BalanceMultiplayerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F4966E01D44312300E21057 /* Debug */,
-				1F4966E11D44312300E21057 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
